@@ -1,0 +1,119 @@
+<html>
+<head>
+	<link rel="stylesheet" href="./weather.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	
+</head>
+
+
+<body>
+<div class="input-group">
+    <input type="text" id="city" class="form-control" placeholder="Search">
+    <div class="input-group-btn">
+      <button id="search" class="btn btn-default" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+
+<br><br><br><br>
+<div class="wrapper">
+<div class="weather">
+
+  <div class="top">
+  <div class="t-left">
+    <div class="temp"><p id="temp">78 F</p></div>
+    <div class="loc"><p id="loc">SFO</p></div>
+  </div>
+    
+
+    <div class="t-right">
+
+     <div class="desc">
+     	<p id="desc"></p></div>
+     	<img class="icontop" name="icon" src="" alt="image" width="90" height="90">
+</div>
+    
+     </div>
+  
+  
+  <div class="b-left" id="humidity">Humidity</div>
+  <div class="b-right" id="wind">Pressure</div>
+  </div>
+
+<br><br><br>
+<div class="flex-container">
+    <div class="tab-1" >
+     <div class="dateimg"><div class="tablinks"  id="date1"> </div><div class="icon" id="icon1" ></div></div><br>
+      <div class="panel panel-default">
+      <div class="panel-heading" id="temp-min1">temp_min</div>
+      <div class="panel-body" id="temp-max1">temp_max</div>
+      <div class="panel-heading" id="pressure1">pressure</div>
+      <div class="panel-body" id="humidity1">humidity</div>
+      <div class="panel-heading" id="wind1">wind speed</div>
+      <div class="panel-body" id="desc1">weather desc</div>
+     </div>
+    </div>
+
+<div class="tab-2">
+      <div><div class="tablinks"  id="date2"> </div><div class="icon" id="icon2" ></div></div><br>
+      <div class="panel panel-default">
+      <div class="panel-heading" id="temp-min2">temp_min</div>
+      <div class="panel-body" id="temp-max2">temp_max</div>
+      <div class="panel-heading" id="pressure2">pressure</div>
+      <div class="panel-body" id="humidity2">humidity</div>
+      <div class="panel-heading" id="wind2">wind speed</div>
+      <div class="panel-body" id="desc2">weather desc</div>
+     </div>
+  </div>
+
+<div class="tab-3">
+<div><div class="tablinks"  id="date3"> </div><div class="icon" id="icon3" ></div></div><br>
+      <div class="panel panel-default">
+      <div class="panel-heading" id="temp-min3">temp_min</div>
+      <div class="panel-body" id="temp-max3">temp_max</div>
+      <div class="panel-heading" id="pressure3">pressure</div>
+      <div class="panel-body" id="humidity3">humidity</div>
+      <div class="panel-heading" id="wind3">wind speed</div>
+      <div class="panel-body" id="desc3">weather desc</div>
+     </div>
+</div>
+
+<div class="tab-4">
+  <div><div class="tablinks"  id="date4"> </div><div class="icon" id="icon4" ></div></div><br>
+      <div class="panel panel-default">
+      <div class="panel-heading" id="temp-min4">temp_min</div>
+      <div class="panel-body" id="temp-max4">temp_max</div>
+      <div class="panel-heading" id="pressure4">pressure</div>
+      <div class="panel-body" id="humidity4">humidity</div>
+      <div class="panel-heading" id="wind4">wind speed</div>
+      <div class="panel-body" id="desc4">weather desc</div>
+     </div>
+</div>
+
+<div class="tab-5">
+<div><div class="tablinks"  id="date5"> </div><div class="icon" id="icon5" ></div></div><br>
+      <div class="panel panel-default">
+      <div class="panel-heading" id="temp-min5">temp_min</div>
+      <div class="panel-body" id="temp-max5">temp_max</div>
+      <div class="panel-heading" id="pressure5">pressure</div>
+      <div class="panel-body" id="humidity5">humidity</div>
+      <div class="panel-heading" id="wind5">wind speed</div>
+      <div class="panel-body" id="desc5">weather desc</div>
+     </div> 
+</div>
+
+
+  
+</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="./weather.js"></script>  
+</body>
+</html>
